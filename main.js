@@ -17,24 +17,37 @@ listItems.forEach((item, index) => {
   });
 });
 
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  direction: "vertical",
+// const mySwiper = new Swiper(".mySwiper", {
+//   slidesPerView: 5,
+//   centeredSlides: true,
+//   spaceBetween: -20,
+//   initialSlide: 3,
+//   // effect: "coverflow",
+//   // coverflowEffect: {
+//   //   rotate: 0,
+//   //   stretch: 0,
+//   //   depth: 20,
+//   //   scale: 1,
+//   //   modifier: 3,
+//   //   slideShadows: false,
+//   // },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     type: "fraction",
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
+const mySwiper = new Swiper(".mySwiper", {
+  spaceBetween: 1,
+  slidesPerView: 5,
+  centeredSlides: true,
+  roundLengths: false,
   loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
   },
 });

@@ -5,7 +5,20 @@ module.exports = {
     "./**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
+    container: {
+      center: true,
+    },
+    fontSize:{
+        'xxs':'10px'
+    },
+      colors: {
+        'primary': '#282835',
+        'secondary': '#818992',
+        'blue': '#0046CB',
+        'orange':'#FD7D86',
+        'green':'#00D793'
+      },
+    },
+
   plugins: [],
 };
