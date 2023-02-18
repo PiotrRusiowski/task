@@ -42,7 +42,7 @@ body {
     transform: scale(1);
 }
 
-.infoSection {
+.info-section {
     position: relative;
     clip-path: polygon(0 90%, 0 0, 100% 10%, 100% 100%);
     overflow: hidden;
