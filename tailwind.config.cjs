@@ -21,6 +21,7 @@ module.exports = {
         'secondary': '#818992',
         'blue': '#0046CB',
         'lightBlue':'#AABEE5',
+        'circleBlue':'#0D50CE',
         'orange':'#FD7D86',
         'lightOrange':'#F0CED1',
         'green':'#00D793',

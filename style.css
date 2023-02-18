@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -42,6 +43,54 @@ body {
 }
 
 .infoSection {
-    width: 100%;
+    position: relative;
     clip-path: polygon(0 90%, 0 0, 100% 10%, 100% 100%);
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.circle-bg {
+    right: -20px;
+    top: 64px;
+}
+.circle-sm{
+    right:95px;
+    bottom:16px;
+}
+
+.rounded-rectangle-container {
+    position: absolute;
+    transform: rotate(-30deg);
+    left: -120px;
+    bottom: 80px;
+}
+
+.rounded-rectangle {
+    position: relative;
+}
+
+.left-semicircle, .right-semicircle {
+    position: absolute;
+    top: 0;
+    border-radius: 50px 0 0 50px;
+}
+
+.left-semicircle {
+    left: 0;
+}
+
+.right-semicircle {
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.rectangle {
+    position: absolute;
+    top: 0;
+    left: 50px;
+
 }
