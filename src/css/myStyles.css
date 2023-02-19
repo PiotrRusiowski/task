@@ -1,50 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-span{
-    margin:0;
-    padding: 0;
-}
-
-.swiper {
-    width: 200px;
-    height: 200px;
-}
-
 .active {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     cursor: auto;
 }
 
-.swiper-wrapper {
-    width: 200px;
-    height: 200px;
-}
 
-
-.swiper-slide {
-    width: 20px;
-    height: 40px;
-    background: green;
-    transform: scale(0.5);
-
-
-}
-
-.swiper-slide-active {
-    width: 40px;
-    height: 20px;
-    transform: scale(1);
-}
 
 .info-section {
     position: relative;
@@ -60,6 +19,7 @@ span{
 .circle-bg {
     right: -20px;
     top: 64px;
+
 }
 .circle-sm{
     right:95px;

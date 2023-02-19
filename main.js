@@ -1,8 +1,10 @@
-import "./style.css";
-import Swiper from "swiper/bundle";
-import "swiper/css/bundle";
+import "./src/css/style.css";
+import { swiper } from "./src/swiper.js";
+
+const slider = swiper;
 const listItems = document.querySelectorAll("#myList li");
 const numbers = document.querySelectorAll(".num");
+
 let activeItem = null;
 listItems.forEach((item, index) => {
   item.clicks = 0;
@@ -17,7 +19,6 @@ listItems.forEach((item, index) => {
   });
 });
 
-////////////number countdown
 let interval = 5000;
 const countdown = (interval) => {
   numbers.forEach((number) => {
@@ -39,16 +40,3 @@ const countdown = (interval) => {
   });
 };
 countdown(interval);
-/////
-
-const mySwiper = new Swiper(".mySwiper", {
-  spaceBetween: 1,
-  slidesPerView: 5,
-  centeredSlides: true,
-  roundLengths: false,
-  loop: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
