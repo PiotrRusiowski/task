@@ -31,7 +31,7 @@
           </div>
         </header>
         <div class="flex items-center justify-center mb-5">
-          <ul id="myList" class="list-none ml-auto mr-2.5">
+          <ul id="myList" class="list-none md:ml-auto md:mr-2.5">
             <li
               class="flex flex-col mb-0.5 p-[12px] w-[276px] rounded border-1 justify-between cursor-pointer"
             >
@@ -94,7 +94,7 @@
               </p>
             </li>
           </ul>
-          <div class="w-[50%]">
+          <div class="w-[50%] max-sm:hidden">
             <img
               class="object-cover h-[357px]"
               alt="phone image"
@@ -106,21 +106,36 @@
       <section
         class="h-[309px] info-section mb-12 bg-blue flex items-center justify-center"
       >
-        <div class="w-[187px] h-[187px] circle circle-bg bg-circleBlue"></div>
-        <div class="w-[39px] h-[39px] circle circle-sm bg-circleBlue"></div>
-        <div class="flex-col rounded-rectangle-container">
-          <div class="rounded-rectangle w-[300px] h-[50px] scale-50 mt-auto">
-            <div class="left-semicircle bg-circleBlue w-[50px] h-[50px]"></div>
-            <div class="rectangle bg-circleBlue w-[200px] h-[50px]"></div>
-            <div class="right-semicircle bg-circleBlue w-[50px] h-[50px]"></div>
-          </div>
-          <div class="rounded-rectangle w-[300px] h-[50px] scale-75">
-            <div class="left-semicircle bg-circleBlue w-[50px] h-[50px]"></div>
-            <div class="rectangle bg-circleBlue w-[200px] h-[50px]"></div>
-            <div class="right-semicircle bg-circleBlue w-[50px] h-[50px]"></div>
+        <div class="shapes">
+          <div
+            class="w-[187px] h-[187px] circle circle-bg bg-circleBlue max-md:hidden"
+          ></div>
+          <div
+            class="w-[39px] h-[39px] circle circle-sm bg-circleBlue max-md:hidden"
+          ></div>
+          <div class="flex-col rounded-rectangle-container max-md:hidden">
+            <div class="rounded-rectangle w-[300px] h-[50px] scale-50 mt-auto">
+              <div
+                class="left-semicircle bg-circleBlue w-[50px] h-[50px]"
+              ></div>
+              <div class="rectangle bg-circleBlue w-[200px] h-[50px]"></div>
+              <div
+                class="right-semicircle bg-circleBlue w-[50px] h-[50px]"
+              ></div>
+            </div>
+            <div class="rounded-rectangle w-[300px] h-[50px] scale-75">
+              <div
+                class="left-semicircle bg-circleBlue w-[50px] h-[50px]"
+              ></div>
+              <div class="rectangle bg-circleBlue w-[200px] h-[50px]"></div>
+              <div
+                class="right-semicircle bg-circleBlue w-[50px] h-[50px]"
+              ></div>
+            </div>
           </div>
         </div>
-        <div class="flex">
+
+        <div class="sm:flex">
           <div
             class="flex flex-col w-[131px] h-[117px] items-center justify-center mr-3"
           >
@@ -134,8 +149,6 @@
             </div>
             <div class="text-s text-white">App Downloads</div>
           </div>
-        </div>
-        <div class="flex">
           <div
             class="flex flex-col w-[131px] h-[117px] items-center justify-center mr-3"
           >
@@ -150,7 +163,7 @@
             <div class="text-s text-white">Happy Clients</div>
           </div>
         </div>
-        <div class="flex">
+        <div class="sm:flex">
           <div
             class="flex flex-col w-[131px] h-[117px] items-center justify-center mr-3"
           >
@@ -164,8 +177,6 @@
             </div>
             <div class="text-s text-white">Active User</div>
           </div>
-        </div>
-        <div class="flex">
           <div
             class="flex flex-col w-[131px] h-[117px] items-center justify-center mr-3"
           >
