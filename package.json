@@ -15,6 +15,7 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
+    "animated-numbers": "^1.1.7",
     "swiper": "^9.0.5"
   }
 }

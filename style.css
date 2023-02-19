@@ -10,6 +10,10 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+span{
+    margin:0;
+    padding: 0;
+}
 
 .swiper {
     width: 200px;
@@ -93,4 +97,13 @@ body {
     top: 0;
     left: 50px;
 
+}
+
+@media (max-width: 768px) {
+    .circle-bg{
+        right:-80px
+    }
+    .rounded-rectangle-container{
+        left: -150px;
+    }
 }
