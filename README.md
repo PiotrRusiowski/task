@@ -6,7 +6,7 @@ I was considering React.js, but the project was too small.
 
 ## Main Tech stack:
 
-- JS (OOP)
+- JS 
 - Vite
 - TailwindCSS
 - RWD
